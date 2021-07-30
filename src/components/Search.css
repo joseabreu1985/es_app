@@ -1,0 +1,36 @@
+.filter-users {
+  padding: 3rem 1.5rem;
+}
+
+@media (max-width: 1607px) {
+  .filter-users {
+    max-width: 1130px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1212px) {
+  .filter-users {
+    max-width: 740px;
+  }
+}
+
+@media (max-width: 819px) {
+  .filter-users {
+    max-width: 334px;
+  }
+}
+
+.search-box {
+  outline: none;
+  width: 100%;
+  border: 1px solid grey;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.search-box:focus {
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 0 0 10px 5px rgb(0 0 0 / 10%);
+}

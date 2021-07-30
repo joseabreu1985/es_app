@@ -1,15 +1,22 @@
-.app {
-	padding: 3rem;
+.App {
+  padding: 1rem;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 h1 {
-	text-align: center;
-    margin-bottom: 0;
-    padding-top: 1.5rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 3.5rem;
+}
+
+.users-container,
+.filter-users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .users-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  padding-bottom: 3.5rem;
 }
